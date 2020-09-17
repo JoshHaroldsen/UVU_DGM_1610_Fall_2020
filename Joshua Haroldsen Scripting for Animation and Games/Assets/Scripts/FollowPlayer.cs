@@ -6,7 +6,7 @@ public class FollowPlayer : MonoBehaviour
 {
     public GameObject player;
 
-    // Makes the camera follow the vehicle
+    // Sets the position of the camera
     private Vector3 offset = new Vector3(0, 5, -10);
 
     // Update is called once per frame
