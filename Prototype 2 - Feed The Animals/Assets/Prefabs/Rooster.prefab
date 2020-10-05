@@ -1007,6 +1007,9 @@ GameObject:
   - component: {fileID: 1436922601216369441}
   - component: {fileID: -9170296953673580963}
   - component: {fileID: 7701266936341840489}
+  - component: {fileID: -3127624968503731658}
+  - component: {fileID: 4119030955726440400}
+  - component: {fileID: -3073398571727626719}
   m_Layer: 0
   m_Name: Rooster
   m_TagString: Untagged
@@ -1082,6 +1085,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBounds: 30
   lowerBounds: -10
+--- !u!54 &-3127624968503731658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436922601223738097}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4119030955726440400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436922601223738097}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.9780865, y: 18.823784, z: 23.525074}
+  m_Center: {x: -0.34182072, y: 9.225536, z: -0.958544}
+--- !u!114 &-3073398571727626719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436922601223738097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9127982505c3b7b44b96edb1240c3967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1436922601223738433
 GameObject:
   m_ObjectHideFlags: 0
