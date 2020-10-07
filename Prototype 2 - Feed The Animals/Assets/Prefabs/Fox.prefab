@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: -2519545463717084137}
   - component: {fileID: -59318343966706553}
   - component: {fileID: 5596149986612480035}
-  - component: {fileID: -2060633024736564941}
+  - component: {fileID: 8686293140653619894}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -861,7 +861,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.10570202, y: 0.22768302, z: 0.35775504}
   m_Center: {x: -0.003964496, y: 0.12018607, z: 0.008619142}
---- !u!114 &-2060633024736564941
+--- !u!114 &8686293140653619894
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
